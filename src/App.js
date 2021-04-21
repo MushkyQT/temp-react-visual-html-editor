@@ -11,9 +11,9 @@ function App() {
       highlight: '#4a90e2',
       blocks: [
         {
-          type: 'div',
-          paired: true,
-          desc: 'This is a description of the above HTML tag.'
+          type: 'hr',
+          paired: false,
+          desc: 'This is a super cool description of the above HTML tag.'
         },
         {
           type: 'p',
