@@ -11,16 +11,34 @@ function App() {
       highlight: '#4a90e2',
       blocks: [
         {
-          type: '1'
+          type: 'div',
+          paired: true,
+          desc: 'This is a description of the above HTML tag.'
         },
         {
-          type: '2'
+          type: 'p',
+          paired: true,
+          desc: 'This is a description of the above HTML tag.'
         },
         {
-          type: '3'
+          type: 'section',
+          paired: true,
+          desc: 'This is a description of the above HTML tag.'
         },
         {
-          type: '16'
+          type: 'figure',
+          paired: true,
+          desc: 'This is a description of the above HTML tag.'
+        },
+        {
+          type: 'br',
+          paired: false,
+          desc: 'This is a description of the above HTML tag.'
+        },
+        {
+          type: 'caption',
+          paired: true,
+          desc: 'This is a description of the above HTML tag.'
         }
       ]
     },

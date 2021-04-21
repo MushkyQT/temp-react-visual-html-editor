@@ -22,7 +22,7 @@ function BlocksCategory({name, highlight, blocks}) {
       <span className={'blocks-category-title'} onClick={toggleCategory}>{name}</span>
       <div className={'blocks-category-blocks'}>
         {blocks.map(block => {
-          return <Block key={block.type} block={block.type}/>
+          return <Block key={block.type} block={block}/>
         })}
       </div>
     </div>
