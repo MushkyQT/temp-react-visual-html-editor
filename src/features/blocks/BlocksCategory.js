@@ -1,7 +1,7 @@
 import Block from "./Block"
 import './BlocksCategory.css'
 
-function BlocksCategory({name, highlight}) {
+function BlocksCategory({name, highlight, blocks}) {
 
   function toggleCategory(e) {
     const categoryBlocksDiv = e.target.nextElementSibling
@@ -21,10 +21,9 @@ function BlocksCategory({name, highlight}) {
     <div className={'blocks-category'} style={categoryStyle}>
       <span className={'blocks-category-title'} onClick={toggleCategory}>{name}</span>
       <div className={'blocks-category-blocks'}>
-        <Block/>
-        <Block/>
-        <Block/>
-        <Block/>
+        {blocks.map(block => {
+          return <Block key={block.type} block={block.type}/>
+        })}
       </div>
     </div>
   )

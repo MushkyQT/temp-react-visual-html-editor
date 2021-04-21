@@ -1,7 +1,7 @@
-function Block() {
+function Block({block}) {
   return (
     <div className={'blocks-block'}>
-      <p>I'm a block</p>
+      <p>{block}</p>
     </div>
   )
 }
