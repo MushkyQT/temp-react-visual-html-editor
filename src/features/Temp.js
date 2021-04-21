@@ -1,5 +1,5 @@
-import {useDispatch} from "react-redux";
-import {toggleLogged} from "../actions";
+import {useDispatch} from "react-redux"
+import {toggleLogged} from "../actions"
 
 function Temp() {
   const dispatch = useDispatch()

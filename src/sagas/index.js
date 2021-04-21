@@ -1,5 +1,5 @@
 import {put, takeEvery, all} from 'redux-saga/effects'
-import helloSaga from "./helloSaga";
+import helloSaga from "./helloSaga"
 
 //Workers
 
