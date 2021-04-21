@@ -4,6 +4,7 @@ import {Provider} from "react-redux"
 import store from './store/store'
 import {enableAllPlugins} from "immer"
 import App from './App'
+import './index.css'
 import reportWebVitals from './reportWebVitals'
 
 enableAllPlugins() // Enable full immer functionality
